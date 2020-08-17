@@ -5,7 +5,7 @@
 int main(void)
 { 
     float cash;
-    do\n
+    do
     {
     cash = get_float("change owned: ");
     }
