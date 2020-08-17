@@ -5,44 +5,47 @@
 int main(void)
 { 
     float cash;
-    do {
+    do\n
+    {
     cash = get_float("change owned: ");
-       }
+    }
     while (cash <= 0);
     
-    int cents = round(cash*100);
+    int cents = round(cash * 100);
     
     int coins = 0;
     
     while (cents >= 25)
     { 
         coins ++;
-        cents = cents -25;
+        cents = cents - 25;
     }
      
     while (cents >= 10)
     { 
         coins ++;
-        cents = cents -10;
+        cents = cents - 10;
     }
      
     while (cents >= 5)
     {
         coins ++;
-        cents = cents -5;
+        cents = cents - 5;
     }
     
     while (cents >= 1)
     { 
-       coins ++;
-       cents --;
+        coins ++;
+        cents --;
     }
      
-     printf("%i \n", coins);
+    printf("%i \n", coins);
 }
 
 // lines 1,2,3 include files that gives us 
 // the do loop (line 7-11) ensures that the computer keeps prompting the user for a number until they give a positive number. 
 // lines 13: a new variable is created, that converts the change into cents, and rounds it to the nearest cent. To use the round function you need to 
 //     include the <math.h>
-// line 15: a new variable is created
+// line 15: a new variable is created which will store how many coins are needed to create chnage, using the greedy algorithm
+// The while loops are used to see how many coins are needed to give chnage
+// line 42: The result is printed 
