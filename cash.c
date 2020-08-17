@@ -34,9 +34,15 @@ int main(void)
     
     while (cents >= 1)
     { 
-      coins ++;
-      cents = cents - 1;
+       coins ++;
+       cents --;
     }
      
      printf("%i \n", coins);
 }
+
+// lines 1,2,3 include files that gives us 
+// the do loop (line 7-11) ensures that the computer keeps prompting the user for a number until they give a positive number. 
+// lines 13: a new variable is created, that converts the change into cents, and rounds it to the nearest cent. To use the round function you need to 
+//     include the <math.h>
+// line 15: a new variable is created
