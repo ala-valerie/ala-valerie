@@ -7,20 +7,20 @@ int main(void)
     int n; 
     do 
     {
-       n = get_int("Positive Number: "); 
+        n = get_int("Positive Number: "); 
     }
-   while (n < 1 || n > 8);                               
+    while (n < 1 || n > 8);                               
 
 
     for (int i = 0; i < n; i++)
     {
           
-           for (int x = 0; x <= i; x++)  
+      for (int x = 0; x <= i; x++)  
       {
                 printf("#");
       }
 
-           printf("\n");
+       printf("\n");
     }
 }
  
