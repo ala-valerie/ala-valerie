@@ -4,24 +4,24 @@
 
 int main(void)
 {
-   int n; 
-   do 
-   {
+    int n; 
+    do 
+    {
        n = get_int("Positive Number: "); 
-   }
-       while (n < 1 || n > 8);                               
+    }
+   while (n < 1 || n > 8);                               
 
 
-   for (int i = 0; i < n; i++ )
-       {
+    for (int i = 0; i < n; i++)
+    {
           
            for (int x = 0; x <= i; x++)  
-             {
+      {
                 printf("#");
-             }
+      }
 
            printf("\n");
-       }
+    }
 }
  
 // row 7: here we are declaring a variable, called 'n', with the integer data type.
