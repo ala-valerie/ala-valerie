@@ -14,17 +14,16 @@ int main (void)
       for (long i = 0; i < text[i];i++)
        {
 
-            if  (text[i] >= 65 && text[i] <= 90)
+            if ((text[i] >= 'a' && text[i] <= 'z') || (text[i] >= 'A' && text[i] <='Z'))
               {
                  numberOfLetters ++;
               }
+             
+            else if 
 
-            else if (text[i] >= 97 && text[i] <=122)
-              {
-                  numberOfLetters ++;
-              }
-              
        }
+       
+       printf("%li letters(s)\n",numberOfLetters);
     
 
     //write my own function for counting letters and then update the code following that //
@@ -44,6 +43,7 @@ int main (void)
 
     }
 
+   printf("%li word(s)\n",numberOfWords);
    
 
     long numberOfSentences = 0;
@@ -64,15 +64,17 @@ int main (void)
             numberOfSentences ++;
         }
     }
+    
+    printf("%li sentence(s)",numberOfSentences);
 
 
     float l = numberOfLetters / numberOfWords * 100;
     float s = numberOfSentences / numberOfWords * 100;
-    int index = round (0.0588 * l - 0.296 * s - 15.8);
+    float index = round (0.0588 * l - 0.296 * s - 15.8);
     
     if (index >= 1 && index <= 16)
     {
-        printf("Grade %i\n",index);
+        printf("Grade %f\n", (double)index);
     }
     
     else if (index < 1)
