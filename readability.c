@@ -14,12 +14,12 @@ int main (void)
       for (long i = 0; i < text[i];i++)
        {
 
-           if (text[i] >= 65 && text[i] <= 90)
+            while  (text[i] >= 65 && text[i] <= 90)
               {
                  numberOfLetters ++;
               }
 
-           else if (text[i] >= 97 && text[i] <=122)
+            while (text[i] >= 97 && text[i] <=122)
               {
                   numberOfLetters ++;
               }
@@ -37,7 +37,7 @@ int main (void)
 
     for (long i = 0; i < text[i]; i++)
     {
-        if (text[i] == (int) 32)
+        while (text[i] == (int) 32)
         {
             numberOfWords ++;
         }
@@ -49,17 +49,17 @@ int main (void)
     long numberOfSentences = 0;
     for (long i = 0; i < text[i]; i++)
     {
-        if (text[i] == (int) 33)
+        while (text[i] == (int) 33)
         {
             numberOfSentences ++;
         }
 
-        else if (text[i] == (int) 63)
+        while (text[i] == (int) 63)
         {
             numberOfSentences ++;
         }
 
-        else if (text[i] == (int) 46)
+        while (text[i] == (int) 46)
         {
             numberOfSentences ++;
         }
