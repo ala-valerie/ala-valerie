@@ -68,12 +68,11 @@ int main (void)
 
     float l = numberOfLetters / numberOfWords * 100;
     float s = numberOfSentences / numberOfWords * 100;
-    float index = round ((0.0588 * l) - (0.296 * s) - 15.8);
-    printf("Grade: %f \n",index);
+    int index = round ((0.0588 * l) - (0.296 * s) - 15.8);
     
     if (index >= 1 && index <= 16)
     {
-        printf("Grade %.0f \n",index);
+        printf("Grade %i \n",index);
     }
     
     else if (index < 1)
