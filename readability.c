@@ -7,13 +7,11 @@
 
 int main (void)
 {
-    string text = get_string("Text: ");
-    int numberOfLetters = 0;
-
-    
+  string text = get_string("Text: ");
+  long numberOfLetters = 0;
 
       
-      for (int i = 0; i < text[i];i++)
+      for (long i = 0; i < text[i];i++)
        {
 
            if (text[i] >= 65 && text[i] <= 90)
@@ -34,11 +32,10 @@ int main (void)
 
 
 
-    printf("%i letter(s) \n", numberOfLetters);
+  
+   long numberOfWords = 1;
 
-    int numberOfWords = 1;
-
-    for (int i = 0; i < text[i]; i++)
+    for (long i = 0; i < text[i]; i++)
     {
         if (text[i] == (int) 32)
         {
@@ -47,10 +44,10 @@ int main (void)
 
     }
 
-    printf("%i word(s)\n", numberOfWords);
+   
 
-    int numberOfSentences = 0;
-    for (int i = 0; i < text[i]; i++)
+    long numberOfSentences = 0;
+    for (long i = 0; i < text[i]; i++)
     {
         if (text[i] == (int) 33)
         {
@@ -68,7 +65,7 @@ int main (void)
         }
     }
 
-    printf("%i sentence(s) \n",numberOfSentences);
+
     float l = numberOfLetters / numberOfWords * 100;
     float s = numberOfSentences / numberOfWords * 100;
     float index = round ((0.0588 * l) - (0.296 * s) - 15.8);
