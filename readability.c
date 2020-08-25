@@ -25,16 +25,14 @@ int main (void)
               {
                  numberOfWords ++;
               }
-              
+
             else if ((text[i] == '!') || (text[i] == '.') || (text[i] == '?'))
               {
                  numberOfSentences ++;
               }
        }
 
-       printf("%li letters(s)\n",numberOfLetters);
-       printf("%li word(s)\n",numberOfWords);
-       printf("%li sentence(s)",numberOfSentences);
+      
 
 
     //write my own function for counting letters and then update the code following that //
