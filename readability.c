@@ -3,15 +3,42 @@
 #include <string.h>
 #include <math.h>
 
+
+
 int main (void)
 {
     string text = get_string("Text: ");
-    int numberOfLetters = strlen(text);
+    int numberOfLetters = 0;
+
+    
+
+      
+      for (int i = 0; i < text[i];i++)
+       {
+
+           if (text[i] >= 65 && text[i] <= 90)
+              {
+                 numberOfLetters ++;
+              }
+
+           else if (text[i] >= 97 && text[i] <=122)
+              {
+                  numberOfLetters ++;
+              }
+              
+       }
+    
+
+    //write my own function for counting letters and then update the code following that //
+    //write out functions
+
+
+
     printf("%i letter(s) \n", numberOfLetters);
 
     int numberOfWords = 1;
 
-    for (int i = 0; i < strlen(text); i++)
+    for (int i = 0; i < text[i]; i++)
     {
         if (text[i] == (int) 32)
         {
@@ -19,33 +46,48 @@ int main (void)
         }
 
     }
-    
+
     printf("%i word(s)\n", numberOfWords);
-    
+
     int numberOfSentences = 0;
-    for (int i = 0; i < strlen(text); i++)
+    for (int i = 0; i < text[i]; i++)
     {
         if (text[i] == (int) 33)
         {
             numberOfSentences ++;
         }
-        
+
         else if (text[i] == (int) 63)
         {
             numberOfSentences ++;
         }
-        
+
         else if (text[i] == (int) 46)
         {
             numberOfSentences ++;
         }
     }
-    
+
     printf("%i sentence(s) \n",numberOfSentences);
-    float s = numberOfLetters / numberOfWords * 100;
-    float l = numberOfSentences / numberOfWords * 100;
-    float index = 0.0588 * l - 0.296 * s - 15.8;
+    float l = numberOfLetters / numberOfWords * 100;
+    float s = numberOfSentences / numberOfWords * 100;
+    float index = round ((0.0588 * l) - (0.296 * s) - 15.8);
     printf("Grade: %f \n",index);
+    
+    if (index >= 1 && index <= 16)
+    {
+        printf("Grade %.0f \n",index);
+    }
+    
+    else if (index < 1)
+    {
+        printf("before grade 1");
+    }
+    
+    else 
+    {
+        printf("Grade 16+");
+    }
 
 }
 // Next i need to write a function that will count the number of words in a sentence. I think i will need to use an array here and increment my way
