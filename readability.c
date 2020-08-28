@@ -50,7 +50,7 @@ int main (void)
 
     else if (index < 1)
     {
-        printf("before grade 1\n");
+        printf("Before grade 1\n");
     }
 
     else
