@@ -39,8 +39,8 @@ int main (void)
     //write my own function for counting letters and then update the code following that //
     //write out functions
 
-    float l = numberOfLetters / numberOfWords * 100;
-    float s = numberOfSentences / numberOfWords * 100;
+    float l = numberOfLetters / (float) numberOfWords * 100;
+    float s = numberOfSentences / (float) numberOfWords * 100;
     int index = (0.0588 * l - 0.296 * s - 15.8);
 
     if (index >= 1 && index <= 16)
@@ -50,12 +50,12 @@ int main (void)
 
     else if (index < 1)
     {
-        printf("before grade 1");
+        printf("before grade 1\n");
     }
 
     else
     {
-        printf("Grade 16+");
+        printf("Grade 16+\n");
     }
 
 }
