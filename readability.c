@@ -41,7 +41,7 @@ int main (void)
 
     float l = numberOfLetters / (float) numberOfWords * 100;
     float s = numberOfSentences / (float) numberOfWords * 100;
-    int index = (0.0588 * l - 0.296 * s - 15.8);
+    int index = round(0.0588 * l - 0.296 * s - 15.8);
 
     if (index >= 1 && index <= 16)
     {
