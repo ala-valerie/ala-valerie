@@ -13,7 +13,7 @@ int main (void)
   long numberOfSentences = 0;
 
 
-      for (long i = 0; i < text[i];i++)
+      for (long i = 0; i <= strlen(text);i++)
        {
 
             if ((text[i] >= 'a' && text[i] <= 'z') || (text[i] >= 'A' && text[i] <='Z'))
@@ -32,15 +32,16 @@ int main (void)
               }
        }
 
+    
       
-
+       
 
     //write my own function for counting letters and then update the code following that //
     //write out functions
 
     float l = numberOfLetters / numberOfWords * 100;
     float s = numberOfSentences / numberOfWords * 100;
-    int index = round (0.0588 * l - 0.296 * s - 15.8);
+    int index = (0.0588 * l - 0.296 * s - 15.8);
 
     if (index >= 1 && index <= 16)
     {
