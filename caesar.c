@@ -26,7 +26,7 @@ int main (int argc, string argv[1])
 
      string plaintext = get_string("Plaintext: ");
      string ciphertext; 
-     printf("Ciphertext: ");
+     printf("ciphertext: ");
      
      for (int i = 0; i < strlen(plaintext); i++)
      {
