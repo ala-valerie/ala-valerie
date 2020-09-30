@@ -73,7 +73,7 @@ bool vote(string name)
             return true;
     }
   }
-            return false;
+            return false;   
 }
 
 
@@ -89,7 +89,7 @@ void print_winner(void)
     }
   }
   
-  for (i = 0; i < candidate_count; i++)
+  for (int i = 0; i < candidate_count; i++)
   {
      if (candidates[i].votes == highestvote)
      {
