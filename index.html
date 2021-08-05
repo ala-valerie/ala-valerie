@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/Users/fredzio/Documents/Coding/index.stylesheet.css">
+ <title> Learn </title>
+ <style>
+ body {background-color: lightBlue; font-family: helvetica}
+ </style>
+</head>
+<body>
+  <h1 style="color: darkBlue; font-style: italic;
+   "> The Theatre  </h1>
+
+
+<button class="button"> <a href="/Users/fredzio/Documents/Coding/LearnJavaScript.html">
+     Learn Java Script </a> </button>
+
+<br><br>
+
+  <img src="/Users/fredzio/Documents/Coding/dear-evan-hansen.png">
+
+<br>
+
+  <h2> Defining Theatre </h2>
+
+<p style = "font-weight: bold; font-size: 15px;"> The theatre is a collaborative
+    form of performing art that uses live performers
+    to present the exeprience of a real or imagined event before a live audience
+    in a specific place, often a stage. The performers may communicate this
+    experience to the audience through cominations of gesture, speech, song,
+    music and dance. </p>
+
+<h1 class="attemptone"> Using a style sheet </h1>
+<p class="attemptone"> Here i am trying to use the style sheet to style the webpage.
+   This style won't apply to all p elements, but to the elements that i add the
+   specific selector tag to. I will change the font, color, and background color
+   of this text, and of the above heading </p>
+
+<p> To each p element I will add italics to so that i can practice the other way
+    of adding to a style sheet. I will also add borders to all p elements. To
+    change the width of the border just place how many pixels wide you want it
+    before "solid". </p>
+<p class="update"> (UPDATE: i have changed this because the borders around
+    all the P elements were pissing me off)</p>
+
+<p class="border"> To just this paragraph I will add some padding, this is also
+    done using a style sheet. But this paragraph will still have all other elements
+    that i added to the p element in the style sheet </p>
+
+<p class="leftborder"> This paragraph will have padding on the left. This will
+   indent the writing to the right of the border. To add padding to the right,
+   use the property: "padding-right". Other properties you can use here include:
+   "padding-top" and "padding-bottom". </p>
+
+<p class="align"> To change the alignment of the content you use the text-align
+   property. In this case i will align the text to the centre. This is done
+   in the stylesheet. Other properties you can include here: left, justify,
+  right, inherit. </p>
+
+<p class="margin"> Margins generate space around an element, outside of any paddings and borders.
+    To change the margin on all four sides of an element, we use the margin
+    property. </p>
+
+<p class="topmargin"> To change the margin at the top of an element, use the
+   margin-top property, you can also change the bottom of the margin with
+   margin-bottom. Determine the size of the margin using pixels. In this example
+   the top margin is 15px and the bottom is 50px. </p>
+
+<p class="marginside"> You can also determine the size of the margins on either
+   side in the exact same way; using eiher margin-left or margin-right. In this
+   example both left and right margins will be set to 70px </p>
+
+<p> Although they are similar, margins and the paddings are different. The
+    padding adds space between the content and the border, while the margin
+    adds space between the border and other elements. </p>
+
+<h1 class="heading"> Adding padding with one line </h1>
+<img src="/Users/fredzio/Documents/Coding/padding.png" class="paddingimg">
+<p class="oneline"> Above you can learn how to add padding that can require four
+   lines of code. You can learn to add it using one line, like this. Each element
+   has four padings counted clockwise from top to right, to bottom, to left.
+   When you don't want to add padding to one side, add "0" and leave out "px".
+</p>
+
+
+<h1 class="stylingcorners"> Styling Corners with one line. </h1>
+<p class="stylingcorners"> You can set margin and border-radius shorthands with
+    one line, just like above with padding. The border-radius property with four
+    values rounds corners in a clockwise direction starting from top-left. Examples
+    follow below with cat images </p>
+<img src="/Users/fredzio/Documents/Coding/Kitten.png"
+     class="StylingCornersone">
+<img src="/Users/fredzio/Documents/Coding/kitten-two.png"
+     class="StylingCornerstwo">
+   <br>
+<img src="/Users/fredzio/Documents/Coding/kitten-three.png"
+     class="StylingCornersone" >
+<img src="/Users/fredzio/Documents/Coding/kitten-four.png"
+     class="StylingCornerstwo" >
+<br>
+
+<h1> Rotating Elements </h1>
+   <br>
+<p class="rotate"> This is how to rotate elements! </p>
+   <br>
+<p class="rotateone">It uses the transform property; it accepts fucntions as values. </p>
+<br>
+
+<h1> Bluring Elements </h1>
+<p> This uses the filter property which can use a few different functions,
+    including blur (n.px). The higher the pixels, the more blurry the
+    element </p>
+<img src="/Users/fredzio/Documents/Coding/beer.png" class="blurr"  >
+<p class="blur"> I'm so drunk, everything is blurry... </p>
+<br>
+
+<h1> Graying out Images </h1>
+<p> This also uses the filter property. Graying out images uses a fucntion called
+    grayscale (). Setting it to 0% means it doesn't affect the image. </p>
+<img src="/Users/fredzio/Documents/Coding/Grayscale.png" class="grayscale">
+<p> The opacity fucntion changes how visible elements are. The lower the opacity,
+    the less visible images become. This function is also used with the filter
+    property. Opacity means not see-through, setting it to 100% makes it visible.
+    Opacity and grayscale work on a lot of different elements. </p>
+<img src= "/Users/fredzio/Documents/Coding/Opacity.png" class="opacity" >
+<br>
+
+<h1> Building Filters </h1>
+<img src="/Users/fredzio/Documents/Coding/Saturate.png" class="buildingfilters">
+<p> Learning to combine contarst, brightness, and saturation to buld unique
+    filters for images, continuing to use the filter property, and setting it
+    to brightness(100%) changes how bright an image is; 100% is the default. </p>
+<img src="/Users/fredzio/Documents/Coding/Saturate.png" class="bright" >
+<p> Setting filter to saturate(xx) adjusts how vivid the colors are. Make images
+    less colorful by coding saturate(50%). </p>
+<img src="/Users/fredzio/Documents/Coding/Saturate.png" class="saturate">
+<p> Setting filter to contrast(xx) adjust the difference between light and
+    dark parts of an image; the lower the number, the grayer the image </p>
+<img src="/Users/fredzio/Documents/Coding/Saturate.png" class="contrast">
+<p> We can add multiple functions to filter by coding them one after the other.
+    For exaggerated effects you can set the functions to values over 100%. </p>
+<img src="/Users/fredzio/Documents/Coding/Saturate.png" class="combiningfilters">
+<br>
+
+<h1> Customising Gradients </h1>
+<p class="gradient"> Start with the background property and set it to the
+   linear-gradient function.To gradually change the background from top to bottom,
+   place colors inside the parenthese, you can add more than two colors. </p>
+<p class="gradientwo"> To rotate a gradientby 90degrees, or from left to right,
+   place 90deg before the colors. The direction of a gradient goes clockwise from
+  0 to 360. </p>
+
+<div>
+<h1> Styling Groups of Elements </h1>
+<p> You can group elements together using the div tag and then style this group
+    using the stylesheet, and div as the selector tag </p>
+<img src="/Users/fredzio/Documents/Coding/smile.png" class="smilesize">
+</div>
+<br>
+
+<div>
+<h1> Parent and child elements </h1>
+<p> Everything in html is considered a box within a box, when we add a div
+    element, we put a bigger box around other boxes. Because the div has another
+    element nested inside it, we call it a parent element. The elements inside
+    are called child elements. When we style a parent element, there are some
+    properties which only affect the parent, like border, padding and margin.
+    But other properties, like color, are transferred to the child elements from
+    their parent. When a child element recieved a property from its parent, we
+    cann this inheritance. </p>
+</div>
+<br>
+
+<div class="override">
+<h1> Using classes for layout </h1>
+<p>  You can set classes for different div elements, you can also set classes for
+     child elements. These are two examples of how to override the general div
+     style sheet. This can be helpful when you want a certain similarity for all
+     div elements, but you also want to style certain aspects of individual div
+     elements slightly differently.
+</div>
+<br>
+
+<div class="hex">
+<h1> Adding color with Hex Values </h1>
+<p> You can style elements with colors using hex codes, which consist of 6 letters
+    and/or numbers. There are over 16 million combinations. When styling with
+    hex values, put # infront of the six values, for example #000000 is black.
+</p>
+</div>
+<br>
+
+<div>
+<h1> Setting Size with percentages </h1>
+<p class="size"> Setting the size of elements using absolute vaues, like 200px, means they
+    are the exact same size on any screen. We can size an element relative to its
+    parents using a percentage. For example setting the width of a paragraph to
+    50% will take  up  50% of the width of the parent element; in this case the
+    div element </p>
+</div>
+
+<div>
+<h1> Combining Multiple Classes </h1>
+<p class="bold italic color"> To combine styles, we add multiple classes to an
+    HTML element, without touching the CSS style sheet. Three classes have been
+    combined here in the paragraph element and this looks like this: class="bold
+    italic color" inside the p element. Multiple classes let us create combinations
+    of different styles inside our HTML.  </p>
+</div>
+
+<div>
+<h1> Grouping Selectors </h1>
+<p>  Sometimes we want to apply the sampe properties across multiple elements.
+     Like setting the same font-family for all buttons and paragraphs. Instead
+     of writing a new rule for each element, we can use a comma to style h1 and
+     button elements using the same rule. "h1, p" is called a group selector
+     since it groups different elements under one rule. You can add selectors
+     of any type, for example: "div, .size". </p>
+</div>
+
+<div class="widediv">
+<h1> Displaying Elements </h1>
+   Normal flow is the way elements display on a webpage by default. For example,
+   headings and paragraphs appear on their own line while links and buttons
+   get grouped on the same line. The <strong> display </strong> property
+   decides whether or not an element appears on the same line.
+<h3> Display: inline; </h3>
+   Examples of inline elements include: a, em, strong, and li. They all appear on
+   the same line when coded after each other. If multiple inline elements don't fit
+   inside the width of their parents, the elements towards the end move down to the
+   next line. You can't change the size of these.
+
+<h3> Display: block; </h3>
+    Elements like p, div or h3 work differently in normal flow than inline elements
+    They always appear on seperate lines. The display value for elements taking
+    the entire width of their parent element is <strong> block. </strong>
+<h3> Display: inline-block; </h3>
+    Buttons and images are displayed differently than inline or block elements,
+    they have <strong> inline-block </strong> as their default <strong> display
+    </strong> value.  Inline-block puts elements on the same line, while also
+    letting us change their size.
+<br> <br>
+   We can set an element's display property to a different value when we
+   want to change how they look and behave on a webpage. For example by default
+   the em element has an inline value meaning you cannot change it's size, but
+   as you can see below, this can be chnaged.
+<br> <br>
+<p> The <em class="elementdisplaychange"> drop </em> </p>
+</div>
+
+<div>
+<h1> Floating Images </h1>
+<img src="/Users/fredzio/Documents/Coding/wrap.png" class="wrap">
+<p> Learning how to wrap text around images. To make text wrap around an image,
+    first place an element with text below an image, and then, on the image, we
+    set the float property to either left or right. </p>
+<br>
+
+<p class="nowrap"> If we don't want the next text element to wrap around the image,
+    we set the element's clear property to the same value as the img element,
+    in this case,"right".
+</div>
+
+<div>
+<h1> Relative positioning </h1>
+<h3> Learning to position elements relative to their original position. </h3>
+<p> We can change the position of elements using the position property. When
+    you set position to relative, you change an element's position in relation
+    to its original position in normal flow. <p>
+<p> You can push the element from the <strong class="position"> top </strong>
+    of its original position. </p>
+<br>
+<p> Besides "top", you can use "right", "bottom" and "left" properties to place
+  elements exatly where we want. </p>
+</div>
+
+<div class="absolute" >
+<h1> Absolute Position </h1>
+<p> To place an element at a particular spot on the screen, we set "position"
+    to absolute. To put the element on the right, we use "right: 0px;". This means
+    that the element is 0px away from the right side of the page. You can use "top"
+    "bottom", "right" or "left" properties for positioning. This property takes
+    the element completley out of normal flow, and can even overlap with other
+    elements </p>.
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div>
+<h1> Z-index </h1>
+<h3> Learning how to control overlapping elements. </h3>
+<p> Setting an image to "position: absolute;" takes it out of its normal follow
+, so in the example below, the heading acts like the image is not there anymore,
+causing overlap. We can control how images overlap with a property called z-index;
+its default value is 0. As the default z-index is 0 for all elements, the browser
+puts the image infront because its the first element in this example. To place an
+element behind another, we set z-index to a lower number, in this case to -1.
+Elements with the higher z-index number are always in front, so you can also give
+the element you want infront a higher z-index number. You can do this with more
+than two elements too. </p>
+<img src="/Users/fredzio/Documents/Coding/sale.png" class="overlap">
+<h1 class="overlaptwo"> SALE </hi>
+<br><br><br><br><br><br><br><br>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+.attemptone {background-color: Teal;
+             color: white;
+             font-family: helvetica;}
+
+body {margin: 100px 100px 100px 100px;}
+
+p { width: 500px;
+   font-style: italic;}
+
+.update {color: red;
+         font-weight: bold;}
+
+.border {padding: 50px;}
+
+.leftborder {padding-left: 200px;}
+
+.align {text-align: center;}
+
+.margin {margin: 100px;}
+
+.topmargin {margin-top: 15px;
+            margin-bottom: 50px;}
+
+.marginside {margin-left: 70px;
+             margin:right 70px;}
+
+.heading {margin-left: 43px;}
+
+.oneline {padding: 50px 50px 50px 50px; }
+
+.paddingimg {width: 165px;
+             height: 140px;
+             border-radius: 10px;
+             margin-left: 162px;}
+
+.stylingcorners {margin-left:55px}
+
+.StylingCornersone {width: 250px;
+                    height: 250px;
+                    margin: 20px;
+                    border-radius: 0 50px 0 50px;}
+
+.StylingCornerstwo {width: 250px;
+                  height: 250px;
+                  margin: 20px;
+                  border-radius: 50px 0 50px 0;}
+
+.rotate {transform: rotate(15deg);
+         margin: 49px;}
+
+.rotateone {transform: rotate(-15deg);
+            margin: 49px;}
+
+.blur {filter: blur(1.5px);}
+
+.blurr {filter: blur(4px);
+        height: 250px;
+        width: 300px;}
+
+.grayscale {filter: grayscale(85%);
+            height: 250px;
+            width 300px;}
+
+.opacity {filter: opacity(25%);
+          height: 225px;
+          width: 300px;}
+
+.buildingfilters {width: 250px;
+                  height: 200px;}
+
+.bright {filter: brightness(50%);
+         width:250px;
+         height:200px;}
+
+.saturate {width: 250px;
+           height: 200px;
+           filter: saturate(50%);}
+
+.contrast {width:250px;
+           height:200px;
+           filter: contrast(50%);}
+
+.combiningfilters {width:250px;
+                   height:200px;
+                   filter: brightness(150%) saturate(150%) contrast(150%);}
+
+.gradient {background: linear-gradient(pink, salmon, darkSalmon);}
+
+.gradientwo {background: linear-gradient(90deg, lightBlue, lightpink);}
+
+div {margin: 50px 300px 50px 300px;
+     padding: 50px;
+     border: solid 4px salmon;
+     text-align: center;
+     border-radius: 13px 13px 13px 13px;}
+
+.smilesize {width: 250px;
+            height: 250px;}
+
+.override {background: linear-gradient(45deg,lightPink, aliceBlue, lightBlue);
+           color: Coral;}
+
+.hex {background-color: #00334d;
+      color: #99ffcc;}
+
+.size {width: 50%;}
+
+.bold {font-weight: bold;}
+
+.italic {font-style: italic;}
+
+.color {color: #ff80ff;}
+
+p, h1, {font-family: helvetica;}
+
+.widediv {margin: 10%;}
+
+.elementdisplaychange {height: 100px;
+                       background-color: blue;
+                       display: inline-block;}
+
+.wrap {width:30%;
+       height:30%;
+      float: right; }
+
+.nowrap {clear: right;}
+
+.position {position: relative;
+           top: 30px;}
+
+.absolute {position: absolute;
+           right: 0px;
+           margin: 20px;}
+
+.overlap { width: 500px;
+           height: 300px;
+           position: absolute;
+           left: 460px;
+           z-index: -1;}
+
+
+
+.overlaptwo { color: #ff6666}
+
+.empty {background-color: aliceBlue;}
+
+.button {height: 100px;
+         width: 100px;
+         background-color: #69928C;}

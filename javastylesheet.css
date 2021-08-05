@@ -1,0 +1,25 @@
+p, h1 {font-family: helvetica;}
+
+h1 {text-align: center;}
+p {padding: 2px 10px 2px 10px;}
+
+body {margin: 0 10% 0 10%;
+      background-color: #98C0BA;}
+
+.center {text-align: center;}
+
+div {margin: 50px 190px 50px 190px;
+     padding: 40px;
+     border: solid 4px #404D4C;
+     border-radius: 13px 13px 13px 13px;}
+
+.position {position:absolute;
+          left: 5%;
+          top: 5%;
+          height: 80px;
+          width: 80px;
+          border-radius: 10px;
+          background-color: #A3B0AF;}
+
+.example {text-align: center;
+          font-weight: bold;}
